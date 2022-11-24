@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var tempLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
 
-    
     var weather: Weather?
     
     override func viewDidLoad() {
@@ -55,7 +54,7 @@ class ViewController: UIViewController {
                             
                             self.tempLabel.text = "\(weather.main.temp)"
                             self.cityLabel.text = "\(weather.name)"
-                            self.textField.text = ""
+                            
                         }
                         
                     } catch let error {

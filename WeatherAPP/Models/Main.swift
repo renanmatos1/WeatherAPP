@@ -8,8 +8,7 @@
 import Foundation
 
 struct Main: Codable {
-    
+
     var temp: Double
-    
-    
+
 }

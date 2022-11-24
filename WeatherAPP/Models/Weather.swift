@@ -12,6 +12,4 @@ struct Weather: Codable {
     var main: Main
     var name: String
     
-    
-    
 }

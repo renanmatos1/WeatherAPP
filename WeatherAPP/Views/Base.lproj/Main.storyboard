@@ -19,27 +19,20 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day-bg" translatesAutoresizingMaskIntoConstraints="NO" id="p92-pH-I1i">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cidade" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wn2-4r-sxv">
-                                <rect key="frame" x="79" y="55" width="232" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Porto Alegre" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfT-rQ-V6v">
                                 <rect key="frame" x="201" y="347" width="164" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="21 C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBp-ln-39L">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="21 C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBp-ln-39L">
                                 <rect key="frame" x="240" y="276" width="125" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utj-bc-sKc">
-                                <rect key="frame" x="325" y="54" width="40" height="37"/>
+                                <rect key="frame" x="332" y="58" width="33" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -50,20 +43,50 @@
                                     <action selector="searchActionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lM3-ZN-tU6"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="location.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ksp-qC-N6z">
-                                <rect key="frame" x="21" y="55" width="44" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="location.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ksp-qC-N6z">
+                                <rect key="frame" x="21" y="55" width="44" height="36.000000000000014"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37.329999999999998" id="kq8-Un-ZYY"/>
+                                    <constraint firstAttribute="width" constant="44" id="pqH-zt-ggD"/>
+                                </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sun.max" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="f0v-Np-5bM">
+                                <rect key="frame" x="254" y="164" width="96" height="91"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="ZsG-jb-iLr"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cidade" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wn2-4r-sxv">
+                                <rect key="frame" x="83" y="58" width="224" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="My4-1c-iVR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ksp-qC-N6z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="7" id="327-fc-T4X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f0v-Np-5bM" secondAttribute="trailing" constant="40" id="6gk-Gy-9dM"/>
                             <constraint firstItem="p92-pH-I1i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B7E-ru-ELM"/>
+                            <constraint firstItem="wn2-4r-sxv" firstAttribute="centerX" secondItem="p92-pH-I1i" secondAttribute="centerX" id="ByK-Dn-wtb"/>
+                            <constraint firstItem="f0v-Np-5bM" firstAttribute="top" secondItem="wn2-4r-sxv" secondAttribute="bottom" constant="72" id="Po0-hF-9br"/>
                             <constraint firstItem="p92-pH-I1i" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Q85-6R-Kus"/>
+                            <constraint firstItem="ksp-qC-N6z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="T84-9B-xMR"/>
+                            <constraint firstItem="BBp-ln-39L" firstAttribute="top" secondItem="f0v-Np-5bM" secondAttribute="bottom" constant="21" id="Uu5-O4-Yvs"/>
                             <constraint firstAttribute="bottom" secondItem="p92-pH-I1i" secondAttribute="bottom" id="VY5-XZ-8XO"/>
+                            <constraint firstItem="f0v-Np-5bM" firstAttribute="centerX" secondItem="BBp-ln-39L" secondAttribute="centerX" id="X3g-Dd-cMb"/>
                             <constraint firstItem="p92-pH-I1i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZKQ-Pf-Z3R"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mfT-rQ-V6v" secondAttribute="bottom" constant="426" id="aoa-wd-fJJ"/>
+                            <constraint firstItem="wn2-4r-sxv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="e6f-tn-Wdx"/>
+                            <constraint firstItem="f0v-Np-5bM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="254" id="fPB-V4-iVk"/>
+                            <constraint firstItem="wn2-4r-sxv" firstAttribute="leading" secondItem="ksp-qC-N6z" secondAttribute="trailing" constant="18" id="rQX-Ca-3ih"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ksp-qC-N6z" secondAttribute="bottom" constant="718.66999999999996" id="riK-mH-6mE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mfT-rQ-V6v" secondAttribute="trailing" constant="25" id="yPf-nP-bas"/>
                         </constraints>
                     </view>
@@ -82,6 +105,7 @@
         <image name="day-bg" width="2000" height="1000"/>
         <image name="location.circle" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="sun.max" catalog="system" width="128" height="125"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
